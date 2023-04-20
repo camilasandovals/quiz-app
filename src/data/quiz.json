@@ -11,7 +11,10 @@
             },
             {"answer" :"Elon",
             "isCorrect": false
-            }
+            },
+            {"answer" :"Jiho",
+            "isCorrect": false
+            }           
         ]
     },
     {
@@ -28,6 +31,10 @@
             },
             {
                 "answer": "Annapolis",
+                "isCorrect":true
+            },
+            {
+                "answer": "Jacksonville",
                 "isCorrect":true
             }
         ]
@@ -46,6 +53,10 @@
             },
             {
                 "answer": "I like ice cream better",
+                "isCorrect":false
+            },
+            {
+                "answer": "I prefer php",
                 "isCorrect":false
             }
         ]

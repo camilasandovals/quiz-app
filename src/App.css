@@ -7,14 +7,52 @@
 
 body{
     background-color: aqua;
+    background-image: url(/public/images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 
-.quiz-card{
+p, li {
+    font-size: clamp(17px, 4vw, 21px)
+}
+
+h1 {
+    font-size: clamp(75px, 4vw, 68px); 
+    font-weight: 800;
+    text-align: center;
+    padding: 15px; 
+    color: whitesmoke;
+}
+
+h2 {
+    font-weight: 900px;
+}
+
+.quiz-card, .quiz-result{
  background-color: white;
  border-radius: 13px;
  padding: 13px;
+ opacity: 0.83;
+ border: 5px solid purple
 }
 
 .quiz-card ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.quiz-card ul li {
+    padding: 10px;
+}
+
+.quiz-card ul li:hover {
+    background-color: rgba(164, 13, 114, 0.632);
+
+}
+
+footer {
+    text-align: center;
 }
