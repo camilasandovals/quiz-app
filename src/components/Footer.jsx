@@ -1,4 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap"
+import { GitHub } from 'react-bootstrap-icons'
+import { ArrowRight } from "react-bootstrap-icons"
 
 export default function Footer() {
     
