@@ -1,0 +1,54 @@
+[
+    {
+        "id": "1",
+        "question": "Who first discovered America?",
+        "options": [
+            { "answer" : "Christopher Columbus",
+             "isCorrect": false
+            },
+            { "answer" :"Leif Erikson",
+             "isCorrect": true
+            },
+            {"answer" :"My mom",
+            "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id":"2",
+        "question": "What is the capital of Maryland",
+        "options": [
+            {
+                "answer": "New York",
+                "isCorrect": false
+            },
+            {
+                "answer": "Baltimore",
+                "isCorrect": false
+            },
+            {
+                "answer": "Annapolis",
+                "isCorrect":true
+            }
+        ]
+    },
+    {
+        "id":"3",
+        "question":"Do you like javascript",
+        "options":[
+            {
+                "answer": "🔥🔥🔥🔥🔥🔥",
+                "isCorrect": true
+            },
+            {
+                "answer": "no",
+                "isCorrect":false
+            },
+            {
+                "answer": "I like ice cream better",
+                "isCorrect":false
+            }
+        ]
+    }
+    
+]
